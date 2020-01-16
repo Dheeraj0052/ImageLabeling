@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         viewFinder = findViewById(R.id.view_finder)
-        Fritz.configure(this, "7b2617273789407fb86fddfe64ae55bf");
+        Fritz.configure(this, "b703ec41baa44fcbac5fd2108e4ff51b");
         if (allPermissionsGranted()) {
             viewFinder.post { startCamera() }
         } else {
